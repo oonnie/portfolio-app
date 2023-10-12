@@ -4,7 +4,7 @@ import astronautHelmet from "../assets/astronaut-helmet.png";
 import deadEye from "../assets/dead-eye.png";
 import stack from "../assets/stack.png";
 import envelope from "../assets/envelope.png";
-import "../styles/Nav.css";
+import "../styles/nav.css";
 
 export default function Nav() {
     const location = useLocation();
@@ -21,8 +21,9 @@ export default function Nav() {
             default:
                 return "";
         }
-    }
-    const getPageTitle = () =>{
+    };
+
+    const getPageTitle = () => {
         switch (location.pathname) {
             case "/":
                 return "ABOUT";
@@ -35,7 +36,8 @@ export default function Nav() {
             default:
                 return "";
         }
-    }
+    };
+
     const navPositionClass = getNavPositionClass();
     const pageTitle = getPageTitle();
 
@@ -50,7 +52,7 @@ export default function Nav() {
         return (
             <Link to={to} className={linkClass}>
                 <img src={imgSrc} alt={altText}/>
-                {isCurrent && <h1 className="page-title">pageTitle</h1>}
+                {isCurrent && <h1 className="page-title">{pageTitle}</h1>}
             </Link>
         );
     };
