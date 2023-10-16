@@ -8,6 +8,7 @@ import "../styles/nav.css";
 
 export default function Nav() {
     const location = useLocation();
+
     const getNavPositionClass = () => {
         switch (location.pathname) {
             case "/":
@@ -58,7 +59,7 @@ export default function Nav() {
     };
 
     return (
-        <nav className={'nav ${navPositionClass}'}>
+        <nav className={`nav ${navPositionClass}`}>
             {renderNavLink(
                 "/",
                 astronautHelmet,
@@ -84,5 +85,5 @@ export default function Nav() {
                 "nav-contact"
             )}
         </nav>
-    )
+    );
 }
