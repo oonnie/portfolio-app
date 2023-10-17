@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
-import avatarImg from "../assets/avatarPic.png";
+import avatarImg from "../assets/avatar-girl.png";
 import "../styles/avatar.css";
 
 const Avatar = ({page}) => {
