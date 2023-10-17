@@ -5,17 +5,17 @@
 }
 
 .avatar.about {
-    height: 89vh;
-    bottom: -8vh;
+    height: 130vh;
+    bottom: -45vh;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .avatar.skills {
-    height: 190vh;
+    height: 200vh;
     bottom: -110vh;
-    left: -1.5rem;
-    transform: translateX(0%) scaleX(-1); /* makes bigger */
+    left: -30rem;
+    transform: translateX(0%) scaleX(-1); /* makes bigger */ 
 }
 
 .shadow-overlay-skills {
@@ -36,6 +36,7 @@
         z-index: -5;
         height: 95vh;
         bottom: -15vh;
+        left: -10rem;
     }
 }
 
@@ -44,5 +45,6 @@
         z-index: -5;
         height: 95vh;
         bottom: -15vh;
+        left: 5rem;
     }
 }

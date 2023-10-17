@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import AboutMenuItem from "./AboutMenuItem";
 import AboutSubheading from "./AboutSubheading";
-import subheadingdata from "./subheadingsData";
 import personalIcon from "../assets/moebius-triangle.png";
 import educationIcon from "../assets/upgrade.png";
 import careerIcon from "../assets/triple-corn.png";

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/background.css";
-import video from "../assets/bg-universe.mp4";
+import video from "../assets/neural-network.mp4";
 import fallbackImg from "../assets/fallback-image.png";
 
 const Background = () => {

@@ -5,7 +5,6 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        /* write all about me */
                         Hi, I'm Annie Krage. I'm a recent graduate from ...
                     </p>
                 </>
@@ -19,7 +18,7 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        /* write about education */
+                        ...write about education
                         University of Iowa 
                         Major: Industrial & Systems Engineering
                         Minor: Computer Science
@@ -36,7 +35,7 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        /* write about internship */
+                        ...write about internship
                         Genova Technologies, Cedar Rapids, IA ...
                     </p>
                 </>
@@ -47,7 +46,7 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        /* write about job */
+                        ...write about job
                     
                     </p>
                 </>
