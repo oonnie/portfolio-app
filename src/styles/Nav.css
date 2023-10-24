@@ -20,6 +20,10 @@
     transform: translateX(-15.62rem);
 }
 
+.nav-link img {
+    width: 3rem;
+}
+
 a {
     width: 3.125rem;
     display: fle;

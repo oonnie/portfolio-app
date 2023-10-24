@@ -17,10 +17,6 @@ const skills = {
             level: 2,
         },
         {
-            title: "Python",
-            level: 3,
-        },
-        {
             title: "ReactJS",
             level: 3,
         },
@@ -35,19 +31,15 @@ const skills = {
             level: 4
         },
         {
-            title: "NodeJS",
-            level: 1,
+            title: "Python",
+            level: 3,
         },
         {
             title: "Django",
             level: 1
         },
         {
-            title: "ExpressJS",
-            level: 1,
-        },
-        {
-            title: "Flask",
+            title: "NodeJS",
             level: 1,
         },
         {

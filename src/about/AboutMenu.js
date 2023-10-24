@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AboutMenuItem from "./AboutMenuItem";
 import AboutSubheading from "./AboutSubheading";
-import personalIcon from "../assets/moebius-triangle.png";
-import educationIcon from "../assets/upgrade.png";
-import careerIcon from "../assets/triple-corn.png";
+import personalIcon from "../assets/rocket-launch.png";
+import educationIcon from "../assets/graduation-cap.png";
+import careerIcon from "../assets/briefcase.png";
 import subheadingsData from './subheadingsData';
 
 export default class AboutMenu extends Component {
@@ -31,7 +31,7 @@ export default class AboutMenu extends Component {
 
   render() {
     const {activeMenuItem, activeSubheading} = this.state;
-    const menuItems = ["PERSONAL", "EDUCATION", "WORK EXPERIENCE"];
+    const menuItems = ["PERSONAL", "EDUCATION", "WORK EXPERIENCE", "VOLUNTEER WORK"];
     const activeMenuTitle = menuItems[activeMenuItem-1]; //bc array index starts at 0
     const activeMenuIcon = 
       activeMenuTitle === "PERSONAL" 

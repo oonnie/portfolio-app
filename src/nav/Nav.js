@@ -1,7 +1,7 @@
 import React from "react";
 import {Link, useLocation} from "react-router-dom";
-import astronautHelmet from "../assets/astronaut-helmet.png";
-import deadEye from "../assets/dead-eye.png";
+import astronautHelmet from "../assets/userFile.png";
+import lightbulb from "../assets/bulb.png";
 import stack from "../assets/stack.png";
 import envelope from "../assets/envelope.png";
 import "../styles/nav.css";
@@ -68,8 +68,8 @@ export default function Nav() {
             )}
             {renderNavLink(
                 "/skills",
-                deadEye,
-                "deadEye icon",
+                lightbulb,
+                "lightbulb icon",
                 "nav-skills"
             )}
             {renderNavLink(
