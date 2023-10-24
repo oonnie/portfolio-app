@@ -102,6 +102,31 @@
     padding: 0.5rem 0 0.5rem 1rem;
 }
 
+h4, h5, h6, p {
+    /* color: rgb(1, 208, 208); */
+    color: var(--cyan) 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 2%;
+}
+
+p {
+    /* color: rgb(30, 200, 200); */
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+ul {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    margin-right: 3%;
+    text-align: center;
+}
+
+
 @media (max-width: 700px){
     .sub-container {
         width: 1rem;

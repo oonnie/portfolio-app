@@ -6,6 +6,10 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+h4, h5, h6, p {
+    font-family: "Futura", sans-serif;
+}
+
 :root {
     --purple: #540351;
     --blue: #3627b1;

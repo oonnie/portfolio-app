@@ -2,53 +2,61 @@ const skills = {
     1: [ /*frontend*/
         {
             title: "HTML",
-            level: 6,
+            level: 5,
         },
         {
             title: "CSS",
-            level: 5,
+            level: 4,
         },
         {
             title: "JavaScript",
-            level: 6,
+            level: 4,
         },
         {
             title: "TypeScript",
-            level: 4,
+            level: 2,
         },
         {
             title: "Python",
-            level: 5,
+            level: 3,
         },
         {
             title: "ReactJS",
-            level: 4,
+            level: 3,
         },
         {
             title: "Angular",
-            level: 3,
+            level: 2,
         },
     ],
     2: [ /*backend*/
         {
-            title: "SQL (MySQL, PostgreSQL)",
-            level: 6
+            title: "SQL",
+            level: 4
         },
         {
             title: "NodeJS",
-            level: 3,
+            level: 1,
         },
         {
-            title: "Git",
-            level: 7,
+            title: "Django",
+            level: 1
         },
         {
             title: "ExpressJS",
-            level: 3,
+            level: 1,
+        },
+        {
+            title: "Flask",
+            level: 1,
+        },
+        {
+            title: "Git",
+            level: 5,
         },
         {
             title: "Jira",
-            level: 7,
+            level: 5,
         },
     ]
 };

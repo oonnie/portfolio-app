@@ -4,8 +4,16 @@ const subheadingsData = {
             title: "About Me",
             content: (
                 <>
+                
                     <p>
-                        Hi, I'm Annie Krage. I'm a recent graduate from ...
+                        Hi, I'm Annie Krage. I'm a recent graduate intending to pursue a career as a front-end or full stack software developer. 
+                        If I had to describe myself in one word, it would be dynamic - I am continuously learning and propelling myself to have a 
+                        range of knowledge, skills, and abilities. 
+                    </p>
+                    <p>
+                        I traveled the world by myself for two years following high school, working 
+                        various jobs or volunteering, before going on to engineering school at the University of Iowa. From my experience,
+                        I've gathered a global perspective & unique problem solving skills.
                     </p>
                 </>
             )
@@ -14,16 +22,20 @@ const subheadingsData = {
     ],
     2: [ /* education */
         {
-            title: "2023 Bachelor of Science in Engineering ",
+            title: "Bachelor of Science in Engineering ",
             content: (
                 <>
-                    <p>
-                        ...write about education
-                        University of Iowa 
-                        Major: Industrial & Systems Engineering
-                        Minor: Computer Science
-                        Focus area: Computer & Information Systems
-                    </p>
+                    {/* <p> */}
+                        <h4>University of Iowa 2019-2023</h4>
+                        <h5>Major: Industrial & Systems Engineering</h5>
+                        <h5>Minor: Computer Science</h5>
+                        <h6>Focus area: Computer & Information Systems</h6>
+                        <br></br>
+                        <p>My studies gave me a great range and foundation of knowledge. I learned methods to assess and optimize 
+                            processes/systems as well as computer science and software engineering fundamentals. I was also a
+                            proud achiever of the Dean's List.
+                        </p>
+                    {/* </p> */}
                 </>
             )
         }
@@ -31,23 +43,61 @@ const subheadingsData = {
     ],
     3: [ /* work experience */
         {
-            title: "2022 Software Engineer Intern",
+            title: "Software Engineer Intern",
             content: (
                 <>
+                    <h4>Summer 2022</h4>
+                    <h5>Genova Technologies - Cedar Rapids, IA (Hybrid)</h5>
                     <p>
-                        ...write about internship
-                        Genova Technologies, Cedar Rapids, IA ...
+                        <ul>
+                            <li>Object-Oriented Programming</li>
+                            <li>Web Development</li>
+                            <li>Mobile Development (iOS, Android)</li>
+                            <li>Manual Testing</li>
+                            <li>Agile/Scrum Methodology</li>
+                            {/* <li>Worked on hybrid team to deliver consistent software updates for a client project</li>
+                            <li>Quickly learned new languages and technologies to swiftly adapt to new environment and codebase</li>
+                            <li>Implemented OOP to fix bugs and create new features on both the web and mobile platforms</li>
+                            <li>Tested code using a simulator and external devices</li>
+                            <li>Presented work to and received feedback from stakeholders on a biweekly basis</li> */}
+                        </ul>
+                    </p>
+                    {/* <h5 id="last-line">Skills Learned: Angular, Bootstrap, Django, Swift, Kotlin/XML, Agile/Scrum, Jira, Bitbucket, Sourcetree,Confluence </h5> */}
+                </>
+            )
+        },
+        {
+            title: "Waitress",
+            content: (
+                <>
+                    <h4>Summer 2019-2021</h4>
+                    <h5>Maxwell's Beach Cafe - Okoboji, IA</h5>
+                    <p>
+                        <ul>
+                            <li>Foresightedness</li>
+                            <li>Fast-paced environment</li>
+                            <li>Ability to accept criticism</li>
+                            <li>Active listening skills</li>
+                            <li>Charisma</li>
+                        </ul>
                     </p>
                 </>
             )
         },
         {
-            title: "2021 Waitress",
+            title: "Receptionist & Bartender",
             content: (
                 <>
+                    <h4>Fall 2018-Spring 2019</h4>
+                    <h5>The Lord Wolseley Hotel - Sydney, NSW (AUS)</h5>
                     <p>
-                        ...write about job
-                    
+                        <ul>
+                            <li>Adaptability</li>
+                            <li>Time Management</li>
+                            <li>Inventory Management</li>
+                            <li>Handling payments & foreign currency</li>
+                            <li>Trustworthiness</li>
+                        </ul>
                     </p>
                 </>
             )

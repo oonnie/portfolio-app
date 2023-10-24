@@ -45,7 +45,7 @@ export default class SkillsMenu extends Component {
       {menuItems.map((item, index) => (
         <div key={index} 
           className={classNames("skill-item", {activeSkill: activeMenuItem === index+1 })}
-          onClick={() => this.handleMenuItemClick((index = 1))}
+          onClick={() => this.handleMenuItemClick((index + 1))}
         >
           <h2 className='skill-title'>{item}</h2>
         </div>
