@@ -52,7 +52,6 @@
     flex-direction: column;
     gap: 0.4rem;
     margin-bottom: 10rem;
-    font-family: "Russo One", sans-serif;
 }
 .project-sub-container h3 {
     position: relative;
@@ -74,16 +73,20 @@
     font-size: 0.9rem;
 }
 
-#description {
+#description h5{
     /* color: white; */
     /* color: rgba(1, 255, 255, 0.768); */
-    color: rgb(134, 0, 83);
+
+   /*  color: rgb(134, 0, 83);
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: white; */
+
+    color: rgba(255,255,255, 0.95);
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: rgba(134, 0, 83, .9);
 }
 
 #course {
-    /* font-family: "Futura", sans-serif; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -92,7 +95,6 @@
     /* color: rgb(134, 0, 83, 0.76); */
     color: rgba(255,255,255, 0.8);
     -webkit-text-stroke-width: 0.7px;
-    /* -webkit-text-stroke-color: rgb(134, 0, 83); */
     -webkit-text-stroke-color: rgba(134, 0, 83, .7);
 }
 
@@ -103,17 +105,27 @@
         transform: translateX(-50%);
     }
     .project-item {
-        height: 2rem;
+        height: 3rem;
         width: 100%;
     }
     .project-item.activeProject .title {
         font-size: 1rem;
+        width: max-content;
     }
     .title {
         font-size: 0.8rem;
     }
     .project-sub-container img {
         width: 20rem;
+    }
+    .project-sub-container {
+        font-size: 0.8rem;
+        width: max-content;
+        margin-bottom: 6rem;
+    }
+    .project-sub-container p,
+    .project-sub-container h5 {
+        font-size: 0.76rem;
     }
 }
 @media (max-width: 700px) {
@@ -129,6 +141,11 @@
     .project-sub-container {
         margin-top: 1rem;
         width: 12rem;
+        font-size: 0.55rem;
+    }
+    .project-sub-container h5,
+    .project-sub-container p {
+        font-size: 0.55rem;
     }
     .project-sub-container img {
         width: 12rem;

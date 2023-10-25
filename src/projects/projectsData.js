@@ -1,9 +1,6 @@
-import project1 from "../assets/project-1.png";
-import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
 import robotProject from "../assets/robotCollage.png";
 import hospitalProject from "../assets/loginPage.jpeg";
-import robot from "../assets/robot.png";
 import portfolioWebsite from "../assets/portfolioWebsite.jpg";
 
 const projects = {

@@ -30,10 +30,10 @@ const subheadingsData = {
             content: (
                 <>
                     <div class="dropdown">
-                        <h4 id="education">University of Iowa 2019-2023</h4>
-                        <h5 id="education">Major: Industrial & Systems Engineering</h5>
-                        <h5 id="education">Minor: Computer Science</h5>
-                        <h6 id="education">Focus area: Computer & Information Systems</h6>
+                        <h4>University of Iowa 2019-2023</h4>
+                        <h5 id="edu" class="firstItem">Major: Industrial & Systems Engineering</h5>
+                        <h5 id="edu">Minor: Computer Science</h5>
+                        <h6 id="edu">Focus area: Computer & Information Systems</h6>
                         <br></br>
                         <p>My studies gave me a great range and foundation of knowledge. I learned methods to assess and optimize 
                             processes/systems as well as computer science and software engineering fundamentals. I was also a
@@ -109,49 +109,6 @@ const subheadingsData = {
             )
         }
     ],
-    4: [ /* volunteer work */
-        {
-            title: "English Teacher",
-            content: (
-                <> <div class="dropdown">
-                    <h4>Fall 2017</h4>
-                    <h5>IVHQ - Bali, Indonesia</h5>
-                    <p>
-                        <ul>
-{/*                             <p>I was responsible for assembling daily lesson plans for my class of young Indonesian children, with the goal
-                                of teaching them the basics of the English language. 
-                                I quickly learned elementary Bahasa Indonesian language and adapted to the local culture.
-                                5 days per week, I instructed a classroom of young children with occasional help from an interpretor. I had to become very creative
-                                with nonverbal communication to bridge the language barrier and successfully communicate with the students.</p> */}
-                            <li>Adaptability</li>
-                            <li>Creativity</li>
-                            <li>Perseverance</li>
-                            <li>Patience</li>
-                        </ul>
-                    </p>
-                    </div>
-                </>
-            )
-        },
-        {
-            title: "Special Olympics Dance Coach",
-            content: (
-                <> <div class="dropdown">
-                    <h4>Spring 2014-2017</h4>
-                    <h5>Special Olympics IA - Sioux City, IA</h5>
-                    <p>
-                        <ul>
-                            <li>Leadership</li>
-                            <li>Enthusiasm</li>
-                            <li>Empathy</li>
-                            <li>Persistence</li>
-                        </ul>
-                    </p>
-                    </div>
-                </>
-            )
-        },
-    ]
 };
 
 export default subheadingsData;

@@ -19,8 +19,8 @@ export default function ContactMenu() {
     setFormData((prevFormData) => ({
         ...prevFormData,
         [name]: value,
-    }))
-  }
+    }));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -39,20 +39,19 @@ export default function ContactMenu() {
         message: "Message: " + DOMPurify.sanitize(message)
     };
 
-    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+   /*  const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+    const userID = process.env.REACT_APP_EMAILJS_USER_ID; */
 
-    emailjs
-        .send(serviceID, templateID, sanitizedData, userID)
-        .then((response) => {
+    //emailjs.send(serviceID, templateID, sanitizedData, userID).then((response) => {
+    emailjs.send('service_3ud2ef6', 'template_xjbby8l', sanitizedData, 't0GahyKIpiAFBebiR').then((response) => {    
             console.log("Email sent successfully!", response.text);
             setFormData(initialState);
             setErrors({});
             setIsSent(true);
         })
         .catch((error) => {
-            console.error("Email sending failed", error)
+            console.error("Email sending failed", error);
         })
         .finally(() => {
             setIsLoading(false);
@@ -63,13 +62,13 @@ export default function ContactMenu() {
     const { name, email, message } = formData;
     const errors = {};
 
-    if (!name.trim()){ //check is name was entered
+    if (!name.trim()) { //check if name was entered
         errors.name = "Name is required";
     }
 
-    if (!email.trim()){
+    if (!email.trim()) {
         errors.email = "Email is required";
-    } else if (!isValidEmail(email)){
+    } else if (!isValidEmail(email)) {
         errors.email = "Invalid email format";
     }
 
@@ -81,7 +80,7 @@ export default function ContactMenu() {
   };
 
   const isValidEmail = (value) => {
-    const emailRegex = /^[^^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(value);
   };
 

@@ -118,16 +118,20 @@ p {
     font-size: 0.9rem;
 }
 
-#education {
-    text-align: left;
-    justify-content: left;
-    width: max-content;
-}
-
 .dropdown {
     background: rgba(125, 123, 123, 0.5);
     border-radius: 15px;
     padding: 0.1rem;
+}
+
+.firstItem {
+    margin-top: 1rem;
+}
+
+#edu {
+    text-align: left;
+    justify-content: left;
+    width: max-content;
 }
 
 #references {
