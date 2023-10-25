@@ -3,7 +3,7 @@ import {Link, useLocation} from "react-router-dom";
 import astronautHelmet from "../assets/userFile.png";
 import lightbulb from "../assets/bulb.png";
 import stack from "../assets/stack.png";
-import envelope from "../assets/envelope.png";
+import contact from "../assets/paper-plane.png";
 import "../styles/nav.css";
 
 export default function Nav() {
@@ -80,7 +80,7 @@ export default function Nav() {
             )}
             {renderNavLink(
                 "/contact",
-                envelope,
+                contact,
                 "envelope icon",
                 "nav-contact"
             )}

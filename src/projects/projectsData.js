@@ -1,7 +1,8 @@
-import project3 from "../assets/project-3.png";
+import javafxProject from "../assets/javafx.png";
 import robotProject from "../assets/robotCollage.png";
 import hospitalProject from "../assets/loginPage.jpeg";
-import portfolioWebsite from "../assets/portfolioWebsite.jpg";
+import portfolioWebsite from "../assets/portfolio700px.png";
+import gitIcon from "../assets/code-branch.png";
 
 const projects = {
     1: {
@@ -9,11 +10,15 @@ const projects = {
         image: portfolioWebsite,
         description: (
             <>
-                <p>Personal website developed and deployed by myself to display my experience and achievements while exercising my web development skills.</p>
-                <h5>Skills Exercised: JavaScript, HTML, CSS, React, GitHub</h5>
+                <p>Personal website developed and deployed by myself to display my experience and achievements while exercising my web development skills.
+                   {/*  <a href="https://github.com/oonnie/portfolio-app.git">
+                        <img id="git" src={gitIcon}></img>
+                    </a> */}
+                </p>
+                <h5>Skills Exercised: JavaScript, HTML, CSS, React, GitHub, EmailJS</h5>
             </>
         ),
-        course: ""
+        course: "",
     },
     2: {
         title: "Design of a Telepresence Robot - Spring 2023",
@@ -44,7 +49,7 @@ const projects = {
     },
     4: {
         title: "JavaFX Word Game - Fall 2022",
-        image: project3,
+        image: javafxProject,
         description: (
             <>
                 <p> 

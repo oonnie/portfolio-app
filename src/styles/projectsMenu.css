@@ -64,14 +64,22 @@
 .project-sub-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:contain;
     border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+    border: 2px;
     opacity: 0.9;
     max-height: 300px;
 }
 .project-sub-container p {
     font-size: 0.9rem;
 }
+
+/* for future use if/when you add links to git repo */
+/* #git {
+    width: 1.5rem;
+    height: 3rem;
+    object-fit: contain;
+} */
 
 #description h5{
     /* color: white; */
@@ -107,6 +115,7 @@
     .project-item {
         height: 3rem;
         width: 100%;
+        margin-left:0.5rem;
     }
     .project-item.activeProject .title {
         font-size: 1rem;
@@ -116,7 +125,7 @@
         font-size: 0.8rem;
     }
     .project-sub-container img {
-        width: 20rem;
+        width: 25rem;
     }
     .project-sub-container {
         font-size: 0.8rem;

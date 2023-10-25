@@ -5,6 +5,17 @@
     transform: translate(-50%, -50%);
 }
 
+.msgToReader p{
+    justify-content: center;
+    align-items: center;
+    max-width: 18rem;
+    background-color: rgba(255,255,255,0.7);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 25px;
+    color: black;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -53,6 +64,7 @@ button {
     border: none;
     font-family: "Russo One", sans-serif;
     cursor: pointer;
+    margin-left: 2%;
 }
 
 .success-message {
@@ -91,7 +103,7 @@ label {
 
 @media (max-width: 700px) {
     .contact-menu {
-        top: 70%;
+        top: 55%;
     }
     form {
         width:100%;
@@ -102,5 +114,8 @@ label {
     }
     .success-message p {
         padding: 0 0.5rem;
+    }
+    button {
+        margin-left: 0;
     }
 }

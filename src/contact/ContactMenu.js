@@ -86,6 +86,11 @@ export default function ContactMenu() {
 
   return (
     <div className="contact-menu">
+        <div className="msgToReader">
+            <p>
+                Feel free to send me a message & I will get back to you as soon as possible!
+            </p>
+        </div>
         {!isSent && (
             <form onSubmit={handleSubmit}>
                 <div className='form-group'>

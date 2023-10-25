@@ -1,3 +1,6 @@
+import document from "../assets/document.png";
+import myResume from "../assets/krage-2023.pdf";
+
 const subheadingsData = {
     1: [
         {
@@ -9,7 +12,7 @@ const subheadingsData = {
                         Hi, I'm Annie Krage. 
                     </p> 
                     <p>
-                        I'm a recent graduate intending to pursue a career as a front-end or full stack software developer. 
+                        {/* I'm a recent graduate intending to pursue a career as a front-end or full stack software developer.  */}
                         If I had to describe myself in one word, it would be dynamic - I am continuously learning and propelling myself to have a 
                         range of knowledge, skills, and abilities. 
                     </p>
@@ -18,6 +21,12 @@ const subheadingsData = {
                         various jobs or volunteering, before going on to engineering school at the University of Iowa. From my experience,
                         I've gathered a global perspective & unique problem solving skills.
                     </p>
+                </div>
+                <div class="resume-link">
+                    <p>Resume:</p>
+                    <a id="resume" href={myResume} download>
+                        <img src={document} alt="W3Schools"/>
+                    </a>
                 </div>
                 </>
             )
@@ -81,7 +90,7 @@ const subheadingsData = {
                         <ul>
                             <li>Foresightedness</li>
                             <li>Fast-paced environment</li>
-                            <li>Ability to accept criticism</li>
+                            {/* <li>Ability to accept criticism</li> */}
                             <li>Active listening skills</li>
                             <li>Charisma</li>
                         </ul>
