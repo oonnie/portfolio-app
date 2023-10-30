@@ -1,9 +1,9 @@
 import React from "react";
 import {Link, useLocation} from "react-router-dom";
 import astronautHelmet from "../assets/userFile.png";
-import lightbulb from "../assets/bulb.png";
+import lightbulb from "../assets/lightbulb.png";
 import stack from "../assets/stack.png";
-import contact from "../assets/paper-plane.png";
+import contact from "../assets/envelopes.png";
 import "../styles/nav.css";
 
 export default function Nav() {

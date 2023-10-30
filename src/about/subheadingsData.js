@@ -43,9 +43,10 @@ const subheadingsData = {
                         <h5 id="edu" class="firstItem">Major: Industrial & Systems Engineering</h5>
                         <h5 id="edu">Minor: Computer Science</h5>
                         <h6 id="edu">Focus area: Computer & Information Systems</h6>
-                        <br></br>
+                    </div>
+                    <div class="dropdown1">
                         <p>My studies gave me a great range and foundation of knowledge. I learned methods to assess and optimize 
-                            processes/systems as well as computer science and software engineering fundamentals. I was also a
+                            processes and systems, as well as computer science and software engineering fundamentals. I was also a
                             proud achiever of the Dean's List.
                         </p>
                     </div>

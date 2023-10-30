@@ -28,7 +28,7 @@ const projects = {
                 <p> 
                     Embedded, full lifecycle group project to design & implement a telepresence robot to be used as assistant for remote work at the Operator Performance Laboratory in Iowa City, IA.
                 </p>
-                <h5>Skills Exercised: JavaScript, HTML, CSS, Python, Flask, RoboClaw, Engineering Design</h5>
+                <h5>Skills Exercised: JavaScript, HTML, CSS, Python, RoboClaw, Raspberry Pi, Engineering Design</h5>
             </>
         ),
         course: "Course: ISE Senior Design"

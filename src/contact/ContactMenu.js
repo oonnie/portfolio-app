@@ -56,7 +56,9 @@ export default function ContactMenu() {
         .finally(() => {
             setIsLoading(false);
         });
-    };
+
+    document.getElementById('msg').style.visibility = 'hidden'; //hide suggestion to contact message box
+   };
 
   const validateForm = () => {
     const { name, email, message } = formData;
@@ -86,7 +88,7 @@ export default function ContactMenu() {
 
   return (
     <div className="contact-menu">
-        <div className="msgToReader">
+        <div className="msgToReader" id="msg" >
             <p>
                 Feel free to send me a message & I will get back to you as soon as possible!
             </p>
