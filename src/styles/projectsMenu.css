@@ -1,24 +1,25 @@
 .project-menu {
-    width: 50rem;
+    width: 70rem;
     position: fixed;
     display: flex;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-60%); /*puts in middle*/
+    top: 22%;
+    /* right: 40%; */
+    left: 35%;
+    transform: translateX(-60%); /* puts in middle */
 }
 
 .project-items-container {
     flex-direction: column;
     display: flex;
     position: relative;
-    width: 50%;
+    width: 60%;
     margin-top: 12rem;
     align-items: flex-end;
 }
 
 .project-item {
     height: 3.75rem;
-    width: 90%;
+    width: 50%;
     display: flex;
     position: relative;
     justify-content: flex-end;
@@ -44,9 +45,12 @@
 .project-item.activeProject:nth-child(3) {
     background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
+.project-item.activeProject:nth-child(4) {
+    background: linear-gradient(270deg, #ffffff00, navy 70%);
+}
 
 .project-sub-container {
-    width: 60%;
+    width: 55%;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -72,19 +76,23 @@
 }
 .project-sub-container p {
     font-size: 0.9rem;
+    background: rgba(125, 123, 123, 0.9);
+    border-radius: 15px;
+    padding: 0.3rem;
 }
 
 /* for future use if/when you add links to git repo */
-/* #git {
-    width: 1.5rem;
-    height: 3rem;
-    object-fit: contain;
-} */
+#git {
+    width: 1.75rem;
+    height: 0.9rem;
+    /* object-fit: contain; */
+    display: inline-block;
+    margin-left: 0.5rem;
+}
 
 #description h5{
     /* color: white; */
     /* color: rgba(1, 255, 255, 0.768); */
-
    /*  color: rgb(134, 0, 83);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: white; */
@@ -104,6 +112,60 @@
     color: rgba(255,255,255, 0.8);
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: rgba(134, 0, 83, .7);
+}
+
+p {
+    font-size: 17px;
+    align-items: center;
+    display: inline-block;
+}
+a {
+    display: inline;
+    width: max-content;
+/*     padding: 15px;
+    border-radius: 3px; */
+}
+.modal {
+    align-items: center;
+    /* display: inline-flex; */
+    display:inline-table;
+    justify-content: center; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(134, 0, 83, 0);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    width:max-content;
+    height: 10rem;
+    margin-left: 105%;
+    /* margin-left: 90%;
+    transform: translateX(-70%); */
+}
+.content {
+    position:absolute;
+    offset-distance: top;
+    /* background: white; */
+    background:  rgba(134, 0, 83, 0.8);
+    width: 22rem;
+    height: fit-content;
+    padding: 1.4em 1.4em;
+    border-radius: 4px;
+} 
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 @media (max-width: 1100px) {

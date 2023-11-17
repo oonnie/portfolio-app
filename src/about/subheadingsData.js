@@ -7,8 +7,8 @@ const subheadingsData = {
             title: "About Me",
             content: (
                 <>
-                <div class="dropdown">
-                    <p>
+                <div class="dropdown" id="personal">
+                    <p style={{fontWeight: 'bold'}}>
                         Hi, I'm Annie Krage. 
                     </p> 
                     <p>
@@ -35,7 +35,7 @@ const subheadingsData = {
     ],
     2: [ /* education */
         {
-            title: "Bachelor of Science in Engineering ",
+            title: "Bachelor of Science in Engineering",
             content: (
                 <>
                     <div class="dropdown">
@@ -44,7 +44,7 @@ const subheadingsData = {
                         <h5 id="edu">Minor: Computer Science</h5>
                         <h6 id="edu">Focus area: Computer & Information Systems</h6>
                     </div>
-                    <div class="dropdown1">
+                    <div class="edu-dropdown">
                         <p>My studies gave me a great range and foundation of knowledge. I learned methods to assess and optimize 
                             processes and systems, as well as computer science and software engineering fundamentals. I was also a
                             proud achiever of the Dean's List.
@@ -52,7 +52,26 @@ const subheadingsData = {
                     </div>
                 </>
             )
-        }
+        },
+        {
+            title: "High School Diploma",
+            content: (
+                <>
+                    <div class="dropdown">
+                        <h4>Bishop Heelan Catholic High School 2013-2017</h4>
+                        <h5>Sioux City, IA</h5>
+                       {/*  <h5 id="edu">Sioux City, IA</h5>
+                        <h5 id="edu">GPA: 3.95</h5> */}
+                    </div>
+                    <div class="edu-dropdown">
+                        <p>I was heavily involved as a high school student, from being on the dance team, varsity tennis team,
+                            volunteer groups, and National Honors Society. I was awarded for my volunteer work (over 120 hours) as well as my grade point average (honor roll)
+                            upon graduation. 
+                        </p>
+                    </div>
+                </>
+            )
+        },
 
     ],
     3: [ /* work experience */
@@ -63,7 +82,7 @@ const subheadingsData = {
                     <h4>Summer 2022</h4>
                     <h5>Genova Technologies - Cedar Rapids, IA (Hybrid)</h5>
                     <p>
-                        <ul>
+                        <ul style={{marginLeft: '0.5rem'}}>
                             <li>Object-Oriented Programming</li>
                             <li>Web Development</li>
                             <li>Mobile Development (iOS, Android)</li>
@@ -88,7 +107,7 @@ const subheadingsData = {
                     <h4>Summer 2019-2021</h4>
                     <h5>Maxwell's Beach Cafe - Okoboji, IA</h5>
                     <p>
-                        <ul>
+                        <ul style={{marginLeft: '2.5rem'}}>
                             <li>Foresightedness</li>
                             <li>Fast-paced environment</li>
                             {/* <li>Ability to accept criticism</li> */}
