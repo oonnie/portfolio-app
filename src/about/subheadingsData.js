@@ -23,7 +23,7 @@ const subheadingsData = {
                     </p>
                 </div>
                 <div class="resume-link">
-                    <p>Resume:</p>
+                    <p style={{marginLeft: '2.5rem'}}>Resume:</p>
                     <a id="resume" href={myResume} download>
                         <img src={document} alt="W3Schools"/>
                     </a>
