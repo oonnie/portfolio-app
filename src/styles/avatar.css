@@ -52,4 +52,19 @@
         bottom: -15vh;
         left: 5rem;
     }
+    .avatar.skills {
+        transform: translateY(2%) translateX(-4%) scaleX(-1);
+    }
+}
+
+@media (max-width: 480px) {
+    .avatar.about {
+        z-index: -5;
+        height: 45vh;
+        bottom: -15vh;
+        left: 5rem;
+    }
+    .avatar.skills {
+        transform: translateY(5%) translateX(-8%) scaleX(-1);
+    }
 }

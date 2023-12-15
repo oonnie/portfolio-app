@@ -82,7 +82,7 @@ const subheadingsData = {
                     <h4>Summer 2022</h4>
                     <h5>Genova Technologies - Cedar Rapids, IA (Hybrid)</h5>
                     <p>
-                        <ul style={{marginLeft: '0.5rem'}}>
+                        <ul>
                             <li>Object-Oriented Programming</li>
                             <li>Web Development</li>
                             <li>Mobile Development (iOS, Android)</li>
@@ -107,7 +107,7 @@ const subheadingsData = {
                     <h4>Summer 2019-2021</h4>
                     <h5>Maxwell's Beach Cafe - Okoboji, IA</h5>
                     <p>
-                        <ul style={{marginLeft: '2.5rem'}}>
+                        <ul style={{marginLeft: '1rem'}}>
                             <li>Foresightedness</li>
                             <li>Fast-paced environment</li>
                             {/* <li>Ability to accept criticism</li> */}

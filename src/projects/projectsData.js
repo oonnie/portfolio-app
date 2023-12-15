@@ -46,7 +46,7 @@ const projects = {
                             <p> My team of 5 and I met with the customer on a weekly basis to define, refine, or assess requirements
                                 throughout the course of a semester. We were responsible for sketching ideas and forming a design, 
                                 carefully selecting materials and technologies to use, as well as designing the software to control the robot remotely
-                                - all in accordance with the given requirements and constraints. My main responsibility in this project was 
+                                - all in accordance with the given requirements and constraints. My main responsibility was 
                                 spearheading the software portion. I constructed a software architecture diagram and developed the login and 
                                 control page interfaces. I also helped develop the logic for variable speed control using a virtual joystick 
                                 and integrating the position of the joystick with the motor controller’s (RoboClaw) movement libraries. 
@@ -73,9 +73,11 @@ const projects = {
                     <a href="#popup-box" style={{marginLeft: '0.5rem'}}>More Details</a>
                     <div id="popup-box" class="modal">
                         <div class="content">
-                            <p>My team and I met on a weekly basis, following the Agile methodology, to review and assign tasks.
-                                I primarily helped with database design and the frontend portion, as well as led and documented all team meetings. 
-                                We chose our tech stack (ReactJS, NodeJS, Express, and MySQL) based on ease of use and team members' past experiences.
+                            <p> 
+                                I primarily helped with database design and the frontend portion, as well as took on the project manager role. 
+                                I led and documented all team meetings, noting my group members' strengths and weaknesses to best assign weekly tasks.
+                                We met on a weekly basis and followed the Agile methodology to successfully execute the project.
+                                We chose our tech stack (ReactJS, NodeJS, Express, and MySQL) based on ease of use and learnability, in accordance with guidelines set by the professor.
                                 We utilized SonarQube for continual code inspection and GitLab for source library control, continual integration, and defect
                                 tracking. For automated testing, we complied with Jest.
                             </p>

@@ -19,6 +19,7 @@
 .title {
     font-size: 1rem;
     padding-right: 2.5rem;
+    text-align: center;
 }
 
 .item.active .title {
@@ -180,18 +181,43 @@ ul {
     /* margin-right: 3%; */
     /* right: 5rem; */
     text-align: center;
+    width: 100%;
+}
+
+li {
+    margin: 10px;
+    list-style-type:circle;
+    margin: 0.2rem;
+    padding-right: 20%;
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 1100px){
     .sub-container {
-        width: 1rem;
+        width: 15rem;
     }
     .item.active .title {
         font-size: 1rem;
     }
     .item {
         height: 2rem;
+    }
+    #personal p {
+        font-size: 0.75rem;
+    }
+    .dropdown h4, .dropdown h5 {
+        font-size: 0.75rem;
+    }
+    li {
+        font-size: 0.65rem;
+        margin-right: 2.3rem;
+    }
+    .menuTitle {
+        font-size: 1.25rem;
+    }
+    .dropdown #edu {
+    
+        width: 15rem;
     }
 }
 
@@ -221,5 +247,35 @@ ul {
     h3, 
     p {
         font-size: 0.8rem;
+    }
+    #personal p, .edu-dropdown p {
+        font-size: 0.7rem;
+    }
+    li {
+      /*   margin-right: 0.75rem;
+        margin-left: 0.25rem; */
+        font-size: 0.7rem;
+        margin-right: 10%;
+    }
+    .dropdown h4, .dropdown h5 {
+        font-size: 0.7rem;
+    }
+    .dropdown li {
+        font-size: 0.6rem;
+        margin: 0.1rem;
+        margin-right: 2.3rem;
+    }
+
+    /* mobile */
+    @media screen and (max-width: 480px) {
+
+        #personal p, h2, h3, p {
+            font-size: 0.5rem;
+        }
+        #references {
+            position: absolute;
+            top: 100%;
+            right: 0;
+        }
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import {Link, useLocation} from "react-router-dom";
-import astronautHelmet from "../assets/userFile.png";
+import aboutIcon from "../assets/userFile.png";
 import lightbulb from "../assets/lightbulb.png";
 import stack from "../assets/stack.png";
 import contact from "../assets/envelopes.png";
@@ -62,8 +62,8 @@ export default function Nav() {
         <nav className={`nav ${navPositionClass}`}>
             {renderNavLink(
                 "/",
-                astronautHelmet,
-                "astronaut helmet icon",
+                aboutIcon,
+                "personal page icon",
                 "nav-about"
             )}
             {renderNavLink(
